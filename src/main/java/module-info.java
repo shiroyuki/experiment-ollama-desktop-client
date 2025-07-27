@@ -1,4 +1,4 @@
-module com.shiroyuki.hallo {
+module com.shiroyuki.ollama_desktop {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -9,6 +9,6 @@ module com.shiroyuki.hallo {
     requires java.desktop;
     requires static lombok;
 
-    opens com.shiroyuki.hallo to javafx.fxml;
-    exports com.shiroyuki.hallo;
+    opens com.shiroyuki.ollama_desktop to javafx.fxml;
+    exports com.shiroyuki.ollama_desktop;
 }
